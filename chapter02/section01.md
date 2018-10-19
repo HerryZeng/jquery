@@ -37,3 +37,14 @@ $("button").click(function(){
   $("p").hide(1000);
 });
 ```
+
+### jQuery toggle()
+
+通过 jQuery，您可以使用 toggle() 方法来切换 hide() 和 show() 方法。
+
+显示被隐藏的元素，并隐藏已显示的元素：
+```jquery
+$("button").click(function(){
+  $("p").toggle();
+});
+```
