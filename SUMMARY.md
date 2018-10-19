@@ -8,4 +8,6 @@
   * [第四节：JQuery语法](chapter01/section04.md)
   * [第五节：JQuery选择器](chapter01/section05.md)
   * [第六节：JQuery事件](chapter01/section06.md)
+* [第二章：JQuery效果](chapter02.md)
+  * [第一节：JQuery隐藏与显示](chapter02/section01.md)
 
