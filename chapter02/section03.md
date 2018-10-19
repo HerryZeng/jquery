@@ -28,7 +28,7 @@ JQuery库是一个`JavaScript`文件，可以使用`HTML`标签引用它：
 
 ```html
 <head>
-<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
 </script>
 </head>
 ```
