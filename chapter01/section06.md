@@ -38,3 +38,39 @@ $("p").click(function(){
     // 动作触发后执行的代码
 });
 ```
+
+### 常用的JQuery事件方法
+
+#### `$(document).read()`
+
+`$(document).read()`方法允许我们在文档完全加载后执行的函数。
+
+### `click()`
+
+`click()`方法是在按钮点击事件被触发时会调用一个函数。
+在下面的实例中，当点击事件在某个`<p>`元素上触发时，隐藏当前`<p>`元素：
+```jquery
+$("p").click(function(){
+    $(this).hide();
+});
+```
+### `dbclick()`
+
+当双击元素时，会发生`dbclick`事件
+`dbclick()`方法触发`dbclick`事件，或规定当发生`dbclick`事件时运行的函数：
+```jquery
+$("p").dbclick(function(){
+    $(this).hide();
+});
+```
+
+### `mouseenter()`
+
+当鼠标指针补穿过元素时，会发生mouseenter事件
+`mouseenter()`方法触发mouseenter事件，或规定当发生mouseenter事件时运行的函数：
+```jquery
+$("#p1").mouseenter(function(){
+    alert('你的鼠标移到了id="p1"的元素上！');
+});
+```
+
