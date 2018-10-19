@@ -21,3 +21,12 @@ $("p")
 ```
 
 #### 实例
+
+用户点击按钮后，所有`<p>`元素都隐藏：
+```jquery
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+```
