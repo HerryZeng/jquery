@@ -31,4 +31,12 @@ JQuery库包含以下功能：
 提示：除此之外，JQuery还提供了大量的插件。
 
 
+### 为什么使用JQuery
+
+目前网络上有大量开源的JS框架，但是JQuery是目前最没流行的JS框架，而且提供了大量的扩展。有很多大公司在使用JQuery，如
++ Google
++ Microsoft
++ IBM
++ Netflix
+
 
