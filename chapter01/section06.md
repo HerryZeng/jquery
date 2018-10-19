@@ -94,3 +94,9 @@ $("#p1").mousedown(function(){
     alert("鼠标在该段落上按下！");
 });
 ```
+
+### `mouseup()`
+
+当在元素上松开鼠标按钮时，会发生 mouseup 事件。
+
+mouseup() 方法触发 mouseup 事件，或规定当发生 mouseup 事件时运行的函数：
