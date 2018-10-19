@@ -134,3 +134,13 @@ $("input").focus(function(){
   $(this).css("background-color","#cccccc");
 });
 ```
+
+### `blur()`
+当元素失去焦点时，发生 blur 事件。
+
+blur() 方法触发 blur 事件，或规定当发生 blur 事件时运行的函数：
+```jquery
+$("input").blur(function(){
+  $(this).css("background-color","#ffffff");
+});
+```
