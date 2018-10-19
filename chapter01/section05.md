@@ -38,3 +38,16 @@ jQuery `#id` 选择器通过 `HTML` 元素的 `id` 属性选取指定的元素�
 页面中元素的 `id` 应该是唯一的，所以您要在页面中选取唯一的元素需要通过 `#id` 选择器。
 
 通过 id 选取元素语法如下：
+```jquery
+$("#test")
+```
+#### 实例
+
+当用户点击按钮后，有 id="test" 属性的元素将被隐藏：
+```jquery
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#test").hide();
+  });
+});
+```
