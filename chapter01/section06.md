@@ -74,3 +74,23 @@ $("#p1").mouseenter(function(){
 });
 ```
 
+### `mouseleave()`
+当鼠标指针离开元素时，会发生 mouseleave 事件。
+
+mouseleave() 方法触发 mouseleave 事件，或规定当发生 mouseleave 事件时运行的函数：
+```jquery
+$("#p1").mouseleave(function(){
+    alert("再见，您的鼠标离开了该段落。");
+});
+```
+
+### `mousedown()`
+
+当鼠标指针移动到元素上方，并按下鼠标按键时，会发生 mousedown 事件。
+
+mousedown() 方法触发 mousedown 事件，或规定当发生 mousedown 事件时运行的函数：
+```jquery
+$("#p1").mousedown(function(){
+    alert("鼠标在该段落上按下！");
+});
+```
