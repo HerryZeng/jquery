@@ -100,3 +100,24 @@ $("#p1").mousedown(function(){
 当在元素上松开鼠标按钮时，会发生 mouseup 事件。
 
 mouseup() 方法触发 mouseup 事件，或规定当发生 mouseup 事件时运行的函数：
+```jquery
+$("#p1").mouseup(function(){
+    alert("鼠标在段落上松开。");
+});
+```
+
+### `hover()`
+
+hover()方法用于模拟光标悬停事件。
+
+当鼠标移动到元素上时，会触发指定的第一个函数(mouseenter);当鼠标移出这个元素时，会触发指定的第二个函数(mouseleave)。
+```jquery
+$("#p1").hover(
+    function(){
+        alert("你进入了 p1!");
+    },
+    function(){
+        alert("拜拜! 现在你离开了 p1!");
+    }
+);
+```
