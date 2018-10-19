@@ -53,3 +53,21 @@ $(document).ready(function(){
 ```
 
 ### .class 选择器
+
+jQuery 类选择器可以通过指定的 class 查找元素。
+
+语法如下：
+```jquery
+%(".test")
+```
+
+#### 实例
+
+用户点击按钮后所有带有 class="test" 属性的元素都隐藏：
+```jquery
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".test").hide();
+  });
+});
+```
