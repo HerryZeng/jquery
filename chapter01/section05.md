@@ -30,3 +30,5 @@ $(document).ready(function(){
   });
 });
 ```
+
+### #id 选择器
