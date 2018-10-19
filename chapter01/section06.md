@@ -20,3 +20,9 @@ JQuery是为事件处理特别设计的
 
 鼠标事件|键盘事件|表单事件|文档/窗口事件
 ---|---|---|---
+click|keypress|submit|load
+dbclick|keydown|change|resize
+mouseenter|keyup|focus|scroll
+mouseleave|hover|blur|unload
+
+
