@@ -25,4 +25,10 @@ dbclick|keydown|change|resize
 mouseenter|keyup|focus|scroll
 mouseleave|hover|blur|unload
 
+### JQuery事件方法语法
 
+在JQuery中，大多数`DOM`事件都有一个等效的JQuery方法。
+页面中指定一个点击事件
+```jquery
+$("p").click()
+```
