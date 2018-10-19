@@ -32,3 +32,10 @@ JQuery库是一个`JavaScript`文件，可以使用`HTML`标签引用它：
 </script>
 </head>
 ```
+
+```html
+<head>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+</head>
+```
