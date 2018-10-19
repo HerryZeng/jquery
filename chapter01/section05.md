@@ -51,3 +51,5 @@ $(document).ready(function(){
   });
 });
 ```
+
+### .class 选择器
