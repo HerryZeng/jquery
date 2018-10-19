@@ -14,4 +14,21 @@ JQuery库可以通过一行简单的标记被添加到网页中。
 + JavaScript
 
 
+### 什么是JQuery
+
+JQuery是一个`JavaScript`函数库，JQuery是一个轻量级的`写的少，做的多`的`JavaScript`库。
+
+JQuery库包含以下功能：
++ HTML元素选取
++ HTML元素操作
++ CSS操作
++ HTML事件函数
++ JavaScript特效和动画
++ HTML DOM遍历和修改
++ AJAX
++ Utilities
+
+提示：除此之外，JQuery还提供了大量的插件。
+
+
 
