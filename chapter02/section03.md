@@ -19,4 +19,4 @@ JQuery库是一个`JavaScript`文件，可以使用`HTML`标签引用它：
     <script src="jquery-3.3.1.min.js"></script>
 </head>
 ```
-是否很疑惑为什么我们没有在`<script>`标签中使用`type="text/javascript"`
+是否很疑惑为什么我们没有在`<script>`标签中使用`type="text/javascript"`,在HTML5中，不必这样做，`JavaScript`是HTML5以及所有现代浏览器中默认脚本语言。
