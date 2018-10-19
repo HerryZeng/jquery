@@ -20,3 +20,15 @@ JQuery库是一个`JavaScript`文件，可以使用`HTML`标签引用它：
 </head>
 ```
 是否很疑惑为什么我们没有在`<script>`标签中使用`type="text/javascript"`,在HTML5中，不必这样做，`JavaScript`是HTML5以及所有现代浏览器中默认脚本语言。
+
+## 替代方案
+
+如果不希望下载并存储JQuery，那么也可以通过CDN(内容分发网络)引用它。
+如果你的站点用户是国内的，建议使用百度、又拍云、新浪等国内CDN地址，如果你站点用户是国外的可以使用谷歌和微软。
+
+```html
+<head>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+```
