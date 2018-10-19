@@ -32,3 +32,9 @@ mouseleave|hover|blur|unload
 ```jquery
 $("p").click()
 ```
+下一步是定义什么时候触发事件，你可以通过一个事件函数实现：
+```jquery
+$("p").click(function(){
+    // 动作触发后执行的代码
+});
+```
