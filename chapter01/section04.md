@@ -22,3 +22,14 @@ JQuery语法是通过选取HTML元素，并对选取的元素执行某些操作�
 >你对 CSS 选择器熟悉吗？
 jQuery 使用的语法是 XPath 与 CSS 选择器语法的组合。在本教程接下来的章节，您将学习到更多有关选择器的语法。
 
+
+### 文档就绪事件
+
+您也许已经注意到在我们的实例中的所有 jQuery 函数位于一个 document ready 函数中：
+```jquery
+$(document).ready(function(){
+ 
+   // 开始写 jQuery 代码...
+ 
+});
+```
