@@ -97,7 +97,7 @@ $(document).ready(function(){
 当我们在教程中演示 jQuery 时，会将函数直接添加到 `<head>` 部分中。不过，把它们放到一个单独的文件中会更好，就像这样（通过 src 属性来引用文件）：
 ```jquery
 <head>
-<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+<script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js">
 </script>
 <script src="my_jquery_functions.js"></script>
 </head>
