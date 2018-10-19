@@ -129,3 +129,8 @@ $("#p1").hover(
 当通过鼠标点击选中元素或通过 tab 键定位到元素时，该元素就会获得焦点。
 
 focus() 方法触发 focus 事件，或规定当发生 focus 事件时运行的函数：
+```jquery
+$("input").focus(function(){
+  $(this).css("background-color","#cccccc");
+});
+```
